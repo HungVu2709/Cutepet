@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="mobile.css" type="text/css" />
+    <link rel="stylesheet" href="tablet.css" type="text/css" />
+    <link rel="stylesheet" href="desktop.css" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="image/logocatdog.png" />
+    <script src="scripts.js" type="text/javascript"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/34b249d228.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="headerview">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img id="logo" src="image/logocatdog.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="petmanagement.html">PET MANAGEMENT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">User manual</a></li>
+                  <li><a class="dropdown-item" href="#">Policy</a></li>
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  NEWS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Bloger</a></li>
+                  <li><a class="dropdown-item" href="#">Pet Food</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">About dog and cat</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  LANGUAGE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Vietnamese</a></li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <button
+              type="button"
+              class="btn btn-outline-primary button-user"
+              id="openLoginForm"
+            >
+              <i class="fa-solid fa-user"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main content -->
+    <main class="" id="">
+      <div class="banner" id="banner">
+        <img class="bannerimg" src="image/bgchomeo.png" alt="" />
+      </div>
+      <div class="container" id="">
+        <div class="row">
+          <div id="sometext">
+            <h2>LOVELY DOG AND CAT</h2>
+            <p>Find some cute picture about lovely cat and dog here</p>
+          </div>
+          <!-- box1 - column 1 -->
+          <div id="box1" class="col-12 col-md-6 col-lg-4">
+            <h3>Cute Cat</h3>
+            <p>Persian cat</p>
+            <img class="image" src="image/meobatu.jpg" alt="Persian Cat" />
+            <p>Mun cat</p>
+            <img class="image" src="image/meomun.jpg" alt="Mun cat " />
+            <p>Tabby cat</p>
+            <img class="image" src="image/meomuop.jpg" alt="Tabby cat " />
+            <p>Golden cat</p>
+            <img class="image" src="image/goldencat.jpeg" alt="golden cat " />
+          </div>
+          <!-- box 2 - column 2 -->
+          <div id="box2" class="col-12 col-md-6 col-lg-4">
+            <h3>Cute Dog</h3>
+            <p>Alaska</p>
+            <img class="image" src="image/alaska.jpg" alt="Alaska" />
+            <p>Corgi</p>
+            <img class="image" src="image/corgi.png" alt="Corgi " />
+            <p>Poodle</p>
+            <img class="image" src="image/poodle.webp" alt="Poodle" />
+            <p>Husky</p>
+            <img class="image" src="image/husky.jpg" alt="Husky" />
+          </div>
+          <!-- box3 - column 3 -->
+          <div id="box3" class="col-12 col-md-12 col-lg-4">
+            <div>
+              <h3>More info</h3>
+              <table class="table table-info table-size">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">From</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Alaska</td>
+                    <td>Alaska Malamute</td>
+                    <td>American</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Corgi</td>
+                    <td>Pembroke Welsh Corgi</td>
+                    <td>Wales</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Husky</td>
+                    <td>Husky Sibir</td>
+                    <td>Russia</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <h3>Most favorite pet</h3>
+              <div class="list-group footer-policy list-group-sizing">
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action"
+                  aria-current="true"
+                >
+                  Alaska
+                </a>
+                <a href="#" class="list-group-item list-group-item-action"
+                  >Corgi</a
+                >
+                <a href="#" class="list-group-item list-group-item-action"
+                  >Husky</a
+                >
+                <a href="#" class="list-group-item list-group-item-action"
+                  >Tabby cat</a
+                >
+                <a class="list-group-item list-group-item-action disabled"
+                  >Mun cat</a
+                >
+              </div>
+
+              <h3>New Post</h3>
+              <ul class="footer-policy">
+                <li>
+                  <a href="#"
+                    >Top 6 signs that your cat is about to give birth</a
+                  >
+                  <hr />
+                </li>
+                <li>
+                  <a href="#"
+                    >Top 10 familiar things in the house that can kill cats and
+                    dogs</a
+                  >
+                  <hr />
+                </li>
+
+                <li>
+                  <a href="#"
+                    >Top Group of fresh seafood pate for dogs and cats</a
+                  >
+                  <hr />
+                </li>
+                <li>
+                  <a href="#"
+                    >Try now how to make Poodle pate in just 15 minutes</a
+                  >
+                  <hr />
+                </li>
+              </ul>
+            </div>
+            <div>
+              <iframe
+                width="100%"
+                height="300px"
+                src="https://www.youtube.com/embed/yVyGL8DzQGw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div>
+              <h3>Map</h3>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.135946197418!2d105.78382241477888!3d21.027245785999206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab078320ce4f%3A0x4c70df2e43fd67d0!2zU2t5IFBhcmsgUmVzaWRlbmNlIFTDtG4gVGjhuqV0IFRodXnhur90!5e0!3m2!1svi!2s!4v1653013075838!5m2!1svi!2s"
+                width="100%"
+                height="300px"
+                style="border: 1px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- popup login form  -->
+    <div class="popup-login" id="popUpLogin">
+      <div class="popup-content">
+        <button class="btn-close-login" id="btnCloseLogin">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form class="row form-login" id="formSignUp">
+          <div class="col-md-12 form-group">
+            <label for="fullname" class="form-label">Full name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fullname"
+              value=""
+              name="fullname"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <div class="col-12 form-group">
+            <label for="account" class="form-label">Account</label>
+
+            <input
+              type="text"
+              class="form-control"
+              id="account"
+              value=""
+              name="account"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <div class="col-12 form-group form-password">
+            <label for="inputPassword password" class="form-label"
+              >Password</label
+            >
+            <div class="input-password">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                value=""
+                name="password"
+              />
+              <i class="fa-solid fa-eye-slash" id="seePassword"></i>
+            </div>
+            <span class="form-message"></span>
+            <!-- <i class="fa-solid fa-eye" id="seePassword"></i> -->
+          </div>
+
+          <div class="col-12 form-group form-password-confirm">
+            <label for="inputPassword password_confirmation" class="form-label"
+              >Confirm Password
+            </label>
+            <div class="input-confirm-password">
+              <input
+                type="password"
+                class="form-control"
+                id="password_confirmation"
+                value=""
+                name="password_confirmation"
+              />
+              <i class="fa-solid fa-eye-slash" id="seeConfirmPassword"></i>
+            </div>
+
+            <span class="form-message"></span>
+          </div>
+
+          <div class="col-md-12 form-group">
+            <label for="inputGroupPrepend2" class="form-label">Email</label>
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2"
+                >Email</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputGroupPrepend2"
+                aria-describedby="inputGroupPrepend2"
+                name="inputGroupPrepend2"
+                placeholder="abcxyz@gmail.com"
+                value=""
+              />
+              <span class="form-message"></span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault03" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault03"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault04" class="form-label">City</label>
+            <select class="form-select" id="validationDefault04" required>
+              <!-- <option selected disabled value="">Choose...</option> -->
+              <option>Hanoi</option>
+              <option>Ho Chi Minh City</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck2"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck2">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="">
+      <div class="row">
+        <!-- footer col 1 -->
+        <div id="footer1" class="col-12 col-md-12 col-lg-4">
+          <h3>About us</h3>
+          <p>This landing page is about dog and cat</p>
+          <p>Contact me : vuhuyhung2792000@gmail.com</p>
+          <p>Phone : +84949633295</p>
+          <i class="fa-brands fa-facebook footer-icon"></i>
+          <i class="fa-brands fa-instagram footer-icon"></i>
+          <i class="fa-brands fa-linkedin footer-icon"></i>
+          <i class="fa-brands fa-twitter footer-icon"></i>
+          <br />
+          <hr class="small-divider left" />
+          <a href="#">Back-to-top</a>
+        </div>
+        <!-- footer col 2 -->
+        <div id="footer2" class="col-12 col-md-12 col-lg-4">
+          <h3>Our Policy</h3>
+          <div>
+            <ul class="footer-policy">
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Site map</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- col col-4 col-t-12 -->
+        <!-- footer col 3 -->
+        <div id="footer3" class="col-12 col-md-12 col-lg-4">
+          <h3>Supported Services</h3>
+          <div class="">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Comment</label
+            >
+            <textarea
+              class="form-control textarea-footer"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mong muốn của chúng ta
+        Validator({
+          form: "#formSignUp",
+          formGroupSelector: ".form-group",
+          errorSelector: ".form-message",
+          rules: [
+            Validator.isRequired("#fullname", "Please enter your fullname"),
+            Validator.isRequired("#account", "Please enter your account"),
+            Validator.isEmail("#inputGroupPrepend2"),
+            Validator.minLength("#password", 8),
+            Validator.isRequired("#password_confirmation"),
+            Validator.isConfirmed(
+              "#password_confirmation",
+              function () {
+                return document.querySelector("#formSignUp #password").value;
+              },
+              " Password not match"
+            ),
+          ],
+          onSubmit: function (data) {
+            // Call API
+            console.log(data);
+          },
+        });
+
+        Validator({
+          form: "#form-2",
+          formGroupSelector: ".form-group",
+          errorSelector: ".form-message",
+          rules: [
+            Validator.isEmail("#email"),
+            Validator.minLength("#password", 6),
+          ],
+          onSubmit: function (data) {
+            // Call API
+            console.log(data);
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
