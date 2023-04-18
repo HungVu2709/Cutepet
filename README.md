@@ -1,3 +1,4 @@
-Deploy ....
-Link
+Link Deploy ....
+
+
 nopetnolife.netlify.app
